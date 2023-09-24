@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+$font-family-sans-serif: "Kumbh Sans", sans-serif;
+$font-size-base: 1.125rem;
+$font-weight-bold: 700;
+
+$primary: hsl(185, 75%, 39%);
+$dark: hsl(229, 23%, 23%);
+$info: hsl(227, 10%, 46%);
+$secondary: hsl(0, 0%, 59%);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+body {
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+    background-position: bottom 225px right 723px, top 278px left 602px;
+    background-repeat: no-repeat;
+}
+.bg-pattern{
+    background-image: url(../images/bg-pattern-card.svg);
+    
+}
+.card-img{
+    width:100px;
+    height: 100px;
+    border:6px solid #ffffff;
+    margin-top:-52px;
+}
